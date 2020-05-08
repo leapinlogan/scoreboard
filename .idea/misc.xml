@@ -6,4 +6,5 @@
   <component name="ProjectResources">
     <xml-schema-version>XMLSchema_1_1</xml-schema-version>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (scoreboard)" project-jdk-type="Python SDK" />
 </project>
