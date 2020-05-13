@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Score Card</title>
+</head>
+<h1>Welcome to Score Card!</h1>
+<hr/>
+<br/>
+<h3>Enter Player Names:</h3>
+<form method="POST" action="/">
+    {{ form.player1.label }}: {{ form.player1 }}<br/>
+        {{ form.player2.label }}: {{ form.player2 }}<br/>
+    {{ form.player3.label }}: {{ form.player3 }}<br/>
+    <br/>
+    {{ form.submit }}
+</form>
+</body>
+</html>
+
